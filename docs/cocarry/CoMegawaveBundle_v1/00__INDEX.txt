@@ -1,0 +1,13 @@
+﻿POINTER=CoMegawaveBundle_v1
+WAVE_ID=CoMegawave_CoEx_Bundle_v1__20260317T194431Z
+GENERATED_UTC=20260317T194431Z
+MODE=CoEx~
+POLICY=PASS
+FILES:
+- AutoEvo_Burst__v0.md
+- Quarantine_Promotion_Flow__v0.md
+- Backend_Parallel_Analysis__v0.md
+- CoGuardian_Heartbeat__v0.md
+- CoPong_Translator__v0.md
+- CoWave_Header_Footer__v0.md
+- CoPsych__v0.md
