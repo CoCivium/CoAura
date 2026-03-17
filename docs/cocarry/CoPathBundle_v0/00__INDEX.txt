@@ -1,0 +1,11 @@
+﻿POINTER=CoPathBundle_v0
+WAVE_ID=CoEx_CoPath_Bundle_v0__20260317T201958Z
+GENERATED_UTC=20260317T201958Z
+MODE=CoEx~
+POLICY=PASS
+FILES:
+- CoPath__v0.md
+- CoHitch_Scaling__v0.md
+- CoHitchySyndrome__v0.md
+- CoVersionGlyph__v0.md
+- GIBindex_Polish_Targets__v0.md
