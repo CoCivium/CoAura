@@ -1,0 +1,9 @@
+POINTER=AutoEvoExternalFirst_v0
+WAVE_ID=CoReUp_AutoEvo_External_First_v0__20260317T224846Z
+GENERATED_UTC=20260317T224846Z
+MODE=CoEx~
+POLICY=PASS
+FILES:
+- AutoEvo_External_First__v0.md
+- CoObject_Competition__v0.md
+- Session_Staging__v0.md
