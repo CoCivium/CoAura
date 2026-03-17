@@ -1,0 +1,16 @@
+{
+  "coobject_id": "192_168_4_225",
+  "domain": "192.168.4.225",
+  "url": "https://192.168.4.225:5001/#/signin",
+  "category": "EXTERNAL",
+  "status": "unknown",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Bookmarks bar/RB",
+    "browser": "Chrome"
+  }
+}

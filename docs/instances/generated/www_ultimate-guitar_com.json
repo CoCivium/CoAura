@@ -1,0 +1,16 @@
+{
+  "coobject_id": "www_ultimate-guitar_com",
+  "domain": "www.ultimate-guitar.com",
+  "url": "https://www.ultimate-guitar.com/explore?order=hitstotal_desc&type[]=Official",
+  "category": "EXTERNAL",
+  "status": "unknown",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Favorites bar/RB",
+    "browser": "Edge"
+  }
+}

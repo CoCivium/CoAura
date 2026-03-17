@@ -1,0 +1,16 @@
+{
+  "coobject_id": "wise_com",
+  "domain": "wise.com",
+  "url": "https://wise.com/login",
+  "category": "EXTERNAL",
+  "status": "live",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Bookmarks/$",
+    "browser": "Brave"
+  }
+}

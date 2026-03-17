@@ -1,0 +1,16 @@
+{
+  "coobject_id": "entment_org",
+  "domain": "entment.org",
+  "url": "https://entment.org/",
+  "category": "PRODUCT",
+  "status": "unknown",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Favorites bar/CoCivium/Outreach",
+    "browser": "Edge"
+  }
+}

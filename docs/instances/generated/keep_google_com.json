@@ -1,0 +1,16 @@
+{
+  "coobject_id": "keep_google_com",
+  "domain": "keep.google.com",
+  "url": "https://keep.google.com/u/1/",
+  "category": "EXTERNAL",
+  "status": "unknown",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Bookmarks bar",
+    "browser": "Chrome"
+  }
+}

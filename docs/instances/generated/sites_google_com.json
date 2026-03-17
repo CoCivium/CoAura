@@ -1,0 +1,16 @@
+{
+  "coobject_id": "sites_google_com",
+  "domain": "sites.google.com",
+  "url": "https://sites.google.com/olpo.myhcdsb.org/world-autism-day/what-is-autism",
+  "category": "EXTERNAL",
+  "status": "live",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Bookmarks/NB",
+    "browser": "Brave"
+  }
+}

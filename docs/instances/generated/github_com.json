@@ -1,0 +1,16 @@
+{
+  "coobject_id": "github_com",
+  "domain": "github.com",
+  "url": "https://github.com/rickballard",
+  "category": "INFRA",
+  "status": "unknown",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Bookmarks bar/CoCivium",
+    "browser": "Chrome"
+  }
+}

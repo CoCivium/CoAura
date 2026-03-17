@@ -1,0 +1,16 @@
+{
+  "coobject_id": "192_168_4_54",
+  "domain": "192.168.4.54",
+  "url": "http://192.168.4.54/",
+  "category": "EXTERNAL",
+  "status": "unknown",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Bookmarks bar/RB",
+    "browser": "Chrome"
+  }
+}

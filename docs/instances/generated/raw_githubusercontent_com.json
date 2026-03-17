@@ -1,0 +1,16 @@
+{
+  "coobject_id": "raw_githubusercontent_com",
+  "domain": "raw.githubusercontent.com",
+  "url": "https://raw.githubusercontent.com/CoCivium/CoBusMirror/main/docs/CoStacks/Gate1_Checklist_v0.1.md",
+  "category": "CORE",
+  "status": "live",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Bookmarks bar/CoCivium__Evergreen",
+    "browser": "Chrome"
+  }
+}

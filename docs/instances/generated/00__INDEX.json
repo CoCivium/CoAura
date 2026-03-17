@@ -1,0 +1,802 @@
+[
+  {
+    "coobject_id": "192_168_4_225",
+    "domain": "192.168.4.225",
+    "url": "http://192.168.4.225:5000/",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks/RB",
+      "browser": "Brave"
+    }
+  },
+  {
+    "coobject_id": "192_168_4_54",
+    "domain": "192.168.4.54",
+    "url": "http://192.168.4.54/",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/RB",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "192_168_4_57",
+    "domain": "192.168.4.57",
+    "url": "http://192.168.4.57:8123/auth/authorize?response_type=code&redirect_uri=http%3A%2F%2F192.168.4.57%3A8123%2F%3Fauth_callback%3D1&client_id=http%3A%2F%2F192.168.4.57%3A8123%2F&state=eyJoYXNzVXJsIjoiaHR0cDovLzE5Mi4xNjguNC41Nzo4MTIzIiwiY2xpZW50SWQiOiJodHRwOi8vMTkyLjE2OC40LjU3OjgxMjMvIn0%3D",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar/RB",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "192_168_4_57",
+    "domain": "192.168.4.57",
+    "url": "http://192.168.4.57:8123/lovelace/cameras",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar/RB",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "www_chatgpt_com",
+    "domain": "www.chatgpt.com",
+    "url": "http://www.chatgpt.com/",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks",
+      "browser": "Brave"
+    }
+  },
+  {
+    "coobject_id": "192_168_4_225",
+    "domain": "192.168.4.225",
+    "url": "https://192.168.4.225:5001/#/signin",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/RB",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "192-168-4-224_serverballard_direct_quickconnect_to",
+    "domain": "192-168-4-224.serverballard.direct.quickconnect.to",
+    "url": "https://192-168-4-224.serverballard.direct.quickconnect.to:5001/#/signin",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar/RB",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "account_godaddy_com",
+    "domain": "account.godaddy.com",
+    "url": "https://account.godaddy.com/products?go_redirect=disabled",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar/CoCivium/Outreach",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "app_hydrawise_com",
+    "domain": "app.hydrawise.com",
+    "url": "https://app.hydrawise.com/config/dashboard",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/RB",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "bigthink_com",
+    "domain": "bigthink.com",
+    "url": "https://bigthink.com/",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/RB",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "calendar_google_com",
+    "domain": "calendar.google.com",
+    "url": "https://calendar.google.com/calendar/u/0/r",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks",
+      "browser": "Brave"
+    }
+  },
+  {
+    "coobject_id": "calendar_google_com",
+    "domain": "calendar.google.com",
+    "url": "https://calendar.google.com/calendar/u/0/r?pli=1",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "contacts_google_com",
+    "domain": "contacts.google.com",
+    "url": "https://contacts.google.com/",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "curiositystream_com",
+    "domain": "curiositystream.com",
+    "url": "https://curiositystream.com/?utm_source=google&utm_medium=cpc&utm_campaign={campaign}&utm_content=707391071251&utm_term=curiositystream&utm_campaign={campaign}&utm_medium=cpc&utm_source=google&utm_term=curiositystream&utm_content=707391071251&gad_source=1&gad_campaignid=21505983575&gbraid=0AAAAADjFvITKUvEouOkMXp0XD-zUVmEiW&gclid=CjwKCAiA-__MBhAKEiwASBmsBCs0znklyDno71GzbIzOpN7CpbC2zuVL6F3_P1BfMFzUyUsX0HGldhoC7WcQAvD_BwE",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/RB",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "dash_cloudflare_com",
+    "domain": "dash.cloudflare.com",
+    "url": "https://dash.cloudflare.com/c58c00c7267df1d31afa4dde19384158/home/domains",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/CoCivium/Outreach",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "docs_google_com",
+    "domain": "docs.google.com",
+    "url": "https://docs.google.com/drawings/d/1odsKHoKY_2rBKPuoFyPOAnahgJTyLT4M4fVys8F27jI/edit",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar/RB",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "drive_google_com",
+    "domain": "drive.google.com",
+    "url": "https://drive.google.com/drive/u/1/my-drive",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/RB",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "entment_org",
+    "domain": "entment.org",
+    "url": "https://entment.org/",
+    "category": "PRODUCT",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar/CoCivium/Outreach",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "github_com",
+    "domain": "github.com",
+    "url": "https://github.com/CoCivium",
+    "category": "INFRA",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks/CoCivium",
+      "browser": "Brave"
+    }
+  },
+  {
+    "coobject_id": "github_com",
+    "domain": "github.com",
+    "url": "https://github.com/CoCivium/CoShareHub",
+    "category": "INFRA",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar/CoCivium/Pins (RAW)",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "github_com",
+    "domain": "github.com",
+    "url": "https://github.com/CoCivium/CoShareHub/blob/main/CoCivium/plans/MasterPlan.md",
+    "category": "INFRA",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar/CoCivium/Start Here",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "github_com",
+    "domain": "github.com",
+    "url": "https://github.com/rickballard",
+    "category": "INFRA",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/CoCivium",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "ground_news",
+    "domain": "ground.news",
+    "url": "https://ground.news/",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar/RB",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "keep_google_com",
+    "domain": "keep.google.com",
+    "url": "https://keep.google.com/u/0/",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks",
+      "browser": "Brave"
+    }
+  },
+  {
+    "coobject_id": "keep_google_com",
+    "domain": "keep.google.com",
+    "url": "https://keep.google.com/u/1/",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "mail_google_com",
+    "domain": "mail.google.com",
+    "url": "https://mail.google.com/mail/u/0/#inbox",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "mail_google_com",
+    "domain": "mail.google.com",
+    "url": "https://mail.google.com/mail/u/1/#inbox",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks",
+      "browser": "Brave"
+    }
+  },
+  {
+    "coobject_id": "myportfolioplus_ca",
+    "domain": "myportfolioplus.ca",
+    "url": "https://myportfolioplus.ca/NBIN/login",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar/$",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "raw_githubusercontent_com",
+    "domain": "raw.githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/CoCivium/CoBusMirror/598dc03178e78e190eae91f47337b01da3bc2e01/docs/COBUS_LITE/broadcast/BROADCAST__LATEST__20260204T160027Z.txt",
+    "category": "CORE",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar/CoCivium/Live",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "raw_githubusercontent_com",
+    "domain": "raw.githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/CoCivium/CoBusMirror/5dd6352cf3da72ec5dc0a3b23947a61a95648b7f/docs/COBEACON_LATEST.txt",
+    "category": "CORE",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar/CoCivium/Live",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "raw_githubusercontent_com",
+    "domain": "raw.githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/CoCivium/CoBusMirror/5dd6352cf3da72ec5dc0a3b23947a61a95648b7f/docs/COBUS_LITE/broadcast/BROADCAST_LATEST.txt",
+    "category": "CORE",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/CoCivium/Pins (RAW)",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "raw_githubusercontent_com",
+    "domain": "raw.githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/CoCivium/CoBusMirror/5dd6352cf3da72ec5dc0a3b23947a61a95648b7f/docs/COBUS_LITE/canon/BOOKMARK_ROLLUP_LATEST.md",
+    "category": "CORE",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/CoCivium/Pins (RAW)",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "raw_githubusercontent_com",
+    "domain": "raw.githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/CoCivium/CoBusMirror/main/docs/COBEACON_LATEST.txt",
+    "category": "CORE",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/CoCivium__Evergreen",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "raw_githubusercontent_com",
+    "domain": "raw.githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/CoCivium/CoBusMirror/main/docs/COBUS_LITE/BOSSBOARD.md",
+    "category": "CORE",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/CoCivium__Evergreen",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "raw_githubusercontent_com",
+    "domain": "raw.githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/CoCivium/CoBusMirror/main/docs/COBUS_LITE/canon/BOOTSTRAP_ROLLUP__LATEST.md",
+    "category": "CORE",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/CoCivium__Evergreen",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "raw_githubusercontent_com",
+    "domain": "raw.githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/CoCivium/CoBusMirror/main/docs/COBUS_LITE/canon/COPRIME_SESSION_SCOPE_LATEST.md",
+    "category": "CORE",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/CoCivium__Evergreen",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "raw_githubusercontent_com",
+    "domain": "raw.githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/CoCivium/CoBusMirror/main/docs/COBUS_LITE/PROTOCOL_v1.md",
+    "category": "CORE",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/CoCivium__Evergreen",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "raw_githubusercontent_com",
+    "domain": "raw.githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/CoCivium/CoBusMirror/main/docs/COBUS_LITE/rollup/ROLLUP_LATEST.md",
+    "category": "CORE",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/CoCivium__Evergreen",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "raw_githubusercontent_com",
+    "domain": "raw.githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/CoCivium/CoBusMirror/main/docs/COBUS_LITE/START_HERE.md",
+    "category": "CORE",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/CoCivium__Evergreen",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "raw_githubusercontent_com",
+    "domain": "raw.githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/CoCivium/CoBusMirror/main/docs/CoStacks/CoStacks_Registry_LATEST.md",
+    "category": "CORE",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/CoCivium__Evergreen",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "raw_githubusercontent_com",
+    "domain": "raw.githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/CoCivium/CoBusMirror/main/docs/CoStacks/Gate1_Checklist_v0.1.md",
+    "category": "CORE",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks bar/CoCivium__Evergreen",
+      "browser": "Chrome"
+    }
+  },
+  {
+    "coobject_id": "sites_google_com",
+    "domain": "sites.google.com",
+    "url": "https://sites.google.com/olpo.myhcdsb.org/world-autism-day/what-is-autism",
+    "category": "EXTERNAL",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks/NB",
+      "browser": "Brave"
+    }
+  },
+  {
+    "coobject_id": "townofoakville_perfectmind_com",
+    "domain": "townofoakville.perfectmind.com",
+    "url": "https://townofoakville.perfectmind.com/24974/Clients/BookMe4BookingPages/Classes?calendarId=2a8f7a83-a657-4d76-a62c-17040a53918b&widgetId=acf798a6-9321-41b7-aa41-92cbb8c1b485&embed=False",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks/NB",
+      "browser": "Brave"
+    }
+  },
+  {
+    "coobject_id": "wise_com",
+    "domain": "wise.com",
+    "url": "https://wise.com/home",
+    "category": "EXTERNAL",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar/$",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "wise_com",
+    "domain": "wise.com",
+    "url": "https://wise.com/login",
+    "category": "EXTERNAL",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks/$",
+      "browser": "Brave"
+    }
+  },
+  {
+    "coobject_id": "www_amazon_ca",
+    "domain": "www.amazon.ca",
+    "url": "https://www.amazon.ca/",
+    "category": "EXTERNAL",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar/$",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "www_bbc_com",
+    "domain": "www.bbc.com",
+    "url": "https://www.bbc.com/news/us-canada",
+    "category": "EXTERNAL",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks/RB",
+      "browser": "Brave"
+    }
+  },
+  {
+    "coobject_id": "www_ebay_ca",
+    "domain": "www.ebay.ca",
+    "url": "https://www.ebay.ca/mye/myebay/summary",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks/$",
+      "browser": "Brave"
+    }
+  },
+  {
+    "coobject_id": "www_ultimate-guitar_com",
+    "domain": "www.ultimate-guitar.com",
+    "url": "https://www.ultimate-guitar.com/explore?order=hitstotal_desc&type[]=Official",
+    "category": "EXTERNAL",
+    "status": "unknown",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Favorites bar/RB",
+      "browser": "Edge"
+    }
+  },
+  {
+    "coobject_id": "www_youtube_com",
+    "domain": "www.youtube.com",
+    "url": "https://www.youtube.com/",
+    "category": "EXTERNAL",
+    "status": "live",
+    "standard_alignment": {
+      "did_vc_ready": false,
+      "schema_org_type": "CreativeWork",
+      "openapi": false
+    },
+    "source": {
+      "folder": "bookmark_bar/Bookmarks",
+      "browser": "Brave"
+    }
+  }
+]

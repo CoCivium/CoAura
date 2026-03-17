@@ -1,0 +1,16 @@
+{
+  "coobject_id": "drive_google_com",
+  "domain": "drive.google.com",
+  "url": "https://drive.google.com/drive/u/1/my-drive",
+  "category": "EXTERNAL",
+  "status": "unknown",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Bookmarks bar/RB",
+    "browser": "Chrome"
+  }
+}

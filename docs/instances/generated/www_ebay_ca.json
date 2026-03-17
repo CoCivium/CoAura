@@ -1,0 +1,16 @@
+{
+  "coobject_id": "www_ebay_ca",
+  "domain": "www.ebay.ca",
+  "url": "https://www.ebay.ca/mye/myebay/summary",
+  "category": "EXTERNAL",
+  "status": "unknown",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Bookmarks/$",
+    "browser": "Brave"
+  }
+}

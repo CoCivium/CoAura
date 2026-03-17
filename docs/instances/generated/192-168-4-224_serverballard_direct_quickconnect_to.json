@@ -1,0 +1,16 @@
+{
+  "coobject_id": "192-168-4-224_serverballard_direct_quickconnect_to",
+  "domain": "192-168-4-224.serverballard.direct.quickconnect.to",
+  "url": "https://192-168-4-224.serverballard.direct.quickconnect.to:5001/#/signin",
+  "category": "EXTERNAL",
+  "status": "unknown",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Favorites bar/RB",
+    "browser": "Edge"
+  }
+}

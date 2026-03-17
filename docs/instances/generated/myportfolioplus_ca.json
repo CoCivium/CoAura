@@ -1,0 +1,16 @@
+{
+  "coobject_id": "myportfolioplus_ca",
+  "domain": "myportfolioplus.ca",
+  "url": "https://myportfolioplus.ca/NBIN/login",
+  "category": "EXTERNAL",
+  "status": "unknown",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Favorites bar/$",
+    "browser": "Edge"
+  }
+}

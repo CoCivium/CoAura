@@ -1,0 +1,16 @@
+{
+  "coobject_id": "www_amazon_ca",
+  "domain": "www.amazon.ca",
+  "url": "https://www.amazon.ca/",
+  "category": "EXTERNAL",
+  "status": "live",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Favorites bar/$",
+    "browser": "Edge"
+  }
+}

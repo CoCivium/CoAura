@@ -1,0 +1,16 @@
+{
+  "coobject_id": "curiositystream_com",
+  "domain": "curiositystream.com",
+  "url": "https://curiositystream.com/?utm_source=google&utm_medium=cpc&utm_campaign={campaign}&utm_content=707391071251&utm_term=curiositystream&utm_campaign={campaign}&utm_medium=cpc&utm_source=google&utm_term=curiositystream&utm_content=707391071251&gad_source=1&gad_campaignid=21505983575&gbraid=0AAAAADjFvITKUvEouOkMXp0XD-zUVmEiW&gclid=CjwKCAiA-__MBhAKEiwASBmsBCs0znklyDno71GzbIzOpN7CpbC2zuVL6F3_P1BfMFzUyUsX0HGldhoC7WcQAvD_BwE",
+  "category": "EXTERNAL",
+  "status": "unknown",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Bookmarks bar/RB",
+    "browser": "Chrome"
+  }
+}

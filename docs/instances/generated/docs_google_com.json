@@ -1,0 +1,16 @@
+{
+  "coobject_id": "docs_google_com",
+  "domain": "docs.google.com",
+  "url": "https://docs.google.com/drawings/d/1odsKHoKY_2rBKPuoFyPOAnahgJTyLT4M4fVys8F27jI/edit",
+  "category": "EXTERNAL",
+  "status": "unknown",
+  "standard_alignment": {
+    "did_vc_ready": false,
+    "schema_org_type": "CreativeWork",
+    "openapi": false
+  },
+  "source": {
+    "folder": "bookmark_bar/Favorites bar/RB",
+    "browser": "Edge"
+  }
+}
