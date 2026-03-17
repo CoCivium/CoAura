@@ -1,0 +1,18 @@
+POINTER=SecondPassBundle_v1
+WAVE_ID=CoMegawave_SecondPass_CoEx_All_v1__20260317T224357Z
+GENERATED_UTC=20260317T224357Z
+MODE=CoEx~
+POLICY=PASS
+FILES:
+- CoRant__v0.md
+- CoSignal_Layer__v0.md
+- CoContracts__v0.md
+- CoBoard__v0.md
+- CoRoute__v0.md
+- CoVisibility__v0.md
+- CoTwilight_Metrics__v0.md
+- CoTwilight_Composite__v0.md
+- CoPath_Emergent_Synchrony__v0.md
+- GIBindex_Update_Targets__v1.md
+- SecondPass_AutoEvo_Review__v0.md
+- AutoEvo_Efficiency__v0.md
