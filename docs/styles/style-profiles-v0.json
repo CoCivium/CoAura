@@ -1,0 +1,12 @@
+﻿{
+  "style_profiles": {
+    "collaborative_dark": {
+      "base": "dark",
+      "tone": "focused"
+    },
+    "academy_clean": {
+      "base": "light",
+      "tone": "calm"
+    }
+  }
+}
