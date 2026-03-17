@@ -1,0 +1,8 @@
+POINTER=IdentityContractsBundle_v1
+WAVE_ID=CoMegawave_Identity_Contracts_Consolidation_v1__20260317T230011Z
+UTC=20260317T230011Z
+FILES:
+- CoIdentity_Layer__v0.md
+- CMA_Alignment__v0.md
+- CoVows_Alignment__v0.md
+- CoCrux_Alignment__v0.md
