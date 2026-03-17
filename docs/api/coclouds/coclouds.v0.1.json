@@ -1,19 +1,39 @@
 {
   "status": "projection-safe-preview",
-  "generated_utc": "20260317T114457Z",
+  "generated_utc": "20260317T120227Z",
   "bootstrap_pointer": "https://raw.githubusercontent.com/CoCivium/CoAura/46ff93c5b1afe76339b1b1499b766b906e358fd3/README.md",
-  "note": "CoCloud clusters for EntMent CoAura surface; render-layer artifacts only",
+  "note": "CoCloud clusters for CoAura render-layer use; now includes weights, aliases, and composition metadata",
   "clouds": [
     {
       "id": "venture_evolution",
       "title": "Venture Evolution",
       "summary": "Ideas become trajectories through mentor and AI signal.",
       "terms": [
-        {"id":"entment","label":"EntMent","definition":"venture emergence surface"},
-        {"id":"coaura","label":"CoAura","definition":"renderable AI-first interface envelope"},
-        {"id":"trajectory","label":"Trajectory","definition":"structured next-step motion"},
-        {"id":"mentor_signal","label":"Mentor Signal","definition":"human pattern guidance"},
-        {"id":"coscendence","label":"CoScendence","definition":"growing into higher-resolution collaboration"}
+        {
+          "id": "entment",
+          "label": "EntMent",
+          "definition": "venture emergence surface"
+        },
+        {
+          "id": "coaura",
+          "label": "CoAura",
+          "definition": "renderable AI-first interface envelope"
+        },
+        {
+          "id": "trajectory",
+          "label": "Trajectory",
+          "definition": "structured next-step motion"
+        },
+        {
+          "id": "mentor_signal",
+          "label": "Mentor Signal",
+          "definition": "human pattern guidance"
+        },
+        {
+          "id": "coscendence",
+          "label": "CoScendence",
+          "definition": "growing into higher-resolution collaboration"
+        }
       ],
       "relationships": [
         "EntMent renders venture intent",
@@ -24,19 +44,52 @@
       "defaults": {
         "intent": "venture",
         "domain": "xr+mentorship",
-        "goal": "move from idea to validated trajectory"
-      }
+        "goal": "move from idea to validated trajectory",
+        "notes": "",
+        "ai_weight": 50,
+        "mentor_weight": 50,
+        "novelty": 35,
+        "constraint": 60
+      },
+      "aliases": [
+        "venture_evolution",
+        "venture_evolution"
+      ],
+      "composable_with": [
+        "capability_evolution",
+        "human_ai_coordination"
+      ]
     },
     {
       "id": "capability_evolution",
       "title": "Capability Evolution",
       "summary": "Capability gaps become development pathways.",
       "terms": [
-        {"id":"academy","label":"Academy","definition":"capability transformation surface"},
-        {"id":"pathway","label":"Pathway","definition":"structured learning progression"},
-        {"id":"feedback","label":"Feedback","definition":"signal that refines growth"},
-        {"id":"practitioner","label":"Practitioner","definition":"capable applied state"},
-        {"id":"steward","label":"Steward","definition":"higher-responsibility growth state"}
+        {
+          "id": "academy",
+          "label": "Academy",
+          "definition": "capability transformation surface"
+        },
+        {
+          "id": "pathway",
+          "label": "Pathway",
+          "definition": "structured learning progression"
+        },
+        {
+          "id": "feedback",
+          "label": "Feedback",
+          "definition": "signal that refines growth"
+        },
+        {
+          "id": "practitioner",
+          "label": "Practitioner",
+          "definition": "capable applied state"
+        },
+        {
+          "id": "steward",
+          "label": "Steward",
+          "definition": "higher-responsibility growth state"
+        }
       ],
       "relationships": [
         "Academy renders capability intent",
@@ -46,19 +99,52 @@
       "defaults": {
         "intent": "capability",
         "domain": "xr+design",
-        "goal": "move from novice to practitioner"
-      }
+        "goal": "move from novice to practitioner",
+        "notes": "",
+        "ai_weight": 50,
+        "mentor_weight": 50,
+        "novelty": 35,
+        "constraint": 60
+      },
+      "aliases": [
+        "capability_evolution",
+        "capability_evolution"
+      ],
+      "composable_with": [
+        "venture_evolution",
+        "human_ai_coordination"
+      ]
     },
     {
       "id": "human_ai_coordination",
       "title": "Human-AI Coordination",
       "summary": "People and AI align through structured signal, not loose prose alone.",
       "terms": [
-        {"id":"cocloud","label":"CoCloud","definition":"cluster of related CoTerms"},
-        {"id":"cogbx","label":"CoGbx","definition":"machine-first payload container"},
-        {"id":"trust","label":"Trust","definition":"confidence and validation dimension"},
-        {"id":"visibility","label":"Visibility","definition":"public/private/AI-only exposure"},
-        {"id":"governance","label":"Governance","definition":"who may shape what and when"}
+        {
+          "id": "cocloud",
+          "label": "CoCloud",
+          "definition": "cluster of related CoTerms"
+        },
+        {
+          "id": "cogbx",
+          "label": "CoGbx",
+          "definition": "machine-first payload container"
+        },
+        {
+          "id": "trust",
+          "label": "Trust",
+          "definition": "confidence and validation dimension"
+        },
+        {
+          "id": "visibility",
+          "label": "Visibility",
+          "definition": "public/private/AI-only exposure"
+        },
+        {
+          "id": "governance",
+          "label": "Governance",
+          "definition": "who may shape what and when"
+        }
       ],
       "relationships": [
         "CoCloud clusters terms into usable meaning",
@@ -69,8 +155,34 @@
       "defaults": {
         "intent": "coordination",
         "domain": "human+ai",
-        "goal": "assemble governed signal for aligned action"
-      }
+        "goal": "assemble governed signal for aligned action",
+        "notes": "",
+        "ai_weight": 50,
+        "mentor_weight": 50,
+        "novelty": 35,
+        "constraint": 60
+      },
+      "aliases": [
+        "human_ai_coordination",
+        "human-ai_coordination"
+      ],
+      "composable_with": [
+        "venture_evolution",
+        "capability_evolution"
+      ]
     }
+  ],
+  "export_modes": [
+    "human",
+    "guided",
+    "raw_signal",
+    "json"
+  ],
+  "deterministic_generation": true,
+  "mutation_controls": [
+    "ai_weight",
+    "mentor_weight",
+    "novelty",
+    "constraint"
   ]
 }
