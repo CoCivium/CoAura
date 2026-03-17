@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>CoClouds Lab v0.2</title>
-  <meta name="description" content="Explore CoClouds, compose clouds, mutate weights, share URL state, and export deterministic payloads." />
+  <title>CoClouds Lab v0.3</title>
+  <meta name="description" content="Explore CoClouds, compose clouds, mutate weights, share URL state, and switch between Human, Guided, Raw Signal, and JSON views." />
   <style>
     :root{
       --bg:#0a1220; --panel:#121b2d; --panel2:#0f1726; --text:#e8effd; --muted:#9fb2d3; --line:#263652;
-      --accent:#89d0ff; --accent2:#a0ffd2; --good:#91e6ae;
+      --accent:#89d0ff; --accent2:#a0ffd2; --good:#91e6ae; --tab:#13213a; --tabActive:#1a3554;
     }
     *{box-sizing:border-box}
     body{margin:0;background:linear-gradient(180deg,#08101c,#0c1526);color:var(--text);font:16px/1.5 system-ui,Segoe UI,Roboto,Arial,sans-serif}
-    .wrap{max-width:1400px;margin:0 auto;padding:22px}
+    .wrap{max-width:1440px;margin:0 auto;padding:22px}
     .hero,.panel{background:rgba(18,27,45,.96);border:1px solid var(--line);border-radius:18px;box-shadow:0 10px 28px rgba(0,0,0,.26)}
     .hero{padding:26px;margin-bottom:16px}
     .panel{padding:16px}
@@ -23,42 +23,55 @@
     .muted{color:var(--muted)}
     .small{font-size:13px}
     .badge{display:inline-block;padding:5px 10px;border-radius:999px;border:1px solid var(--line);color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.05em}
-    .grid{display:grid;grid-template-columns:340px 1fr 420px;gap:16px}
+    .grid{display:grid;grid-template-columns:340px 1fr 460px;gap:16px}
     .stack{display:grid;gap:16px}
-    .clouds{display:grid;gap:10px}
-    .cloud{padding:12px;border-radius:14px;border:1px solid var(--line);background:var(--panel2);cursor:pointer}
+    .clouds,.presets{display:grid;gap:10px}
+    .cloud,.preset{padding:12px;border-radius:14px;border:1px solid var(--line);background:var(--panel2);cursor:pointer}
     .cloud.active{background:#13213a;border-color:#4a84b8}
+    .preset:hover,.cloud:hover{border-color:#4a84b8}
     .terms{display:flex;flex-wrap:wrap;gap:8px}
     .term{padding:6px 10px;border-radius:999px;border:1px solid var(--line);background:#0f1727;font-size:13px}
     .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-    .row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
     .row4{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px}
     label{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}
     input,select,textarea{width:100%;padding:10px 11px;border-radius:12px;border:1px solid var(--line);background:#0a1220;color:var(--text)}
-    textarea{min-height:280px;font:13px/1.45 ui-monospace,SFMono-Regular,Consolas,Monaco,monospace}
+    textarea{min-height:300px;font:13px/1.45 ui-monospace,SFMono-Regular,Consolas,Monaco,monospace}
     .btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
-    button{padding:10px 13px;border-radius:12px;border:1px solid var(--line);background:#13213a;color:var(--text);cursor:pointer}
-    button.primary{background:linear-gradient(90deg,#14324f,#153a5a);border-color:#3b79ac}
-    button.good{background:linear-gradient(90deg,#173928,#1a4a31);border-color:#2f7a4d}
+    .ctaRow{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+    button,.cta{padding:10px 13px;border-radius:12px;border:1px solid var(--line);background:#13213a;color:var(--text);cursor:pointer;text-decoration:none;display:inline-block}
+    button.primary,.cta.primary{background:linear-gradient(90deg,#14324f,#153a5a);border-color:#3b79ac}
+    button.good,.cta.good{background:linear-gradient(90deg,#173928,#1a4a31);border-color:#2f7a4d}
     ul{margin:8px 0 0 18px}
     .mono{font:13px/1.45 ui-monospace,SFMono-Regular,Consolas,Monaco,monospace}
     .outmeta{display:grid;grid-template-columns:1fr;gap:8px}
     .kv{padding:10px;border:1px solid var(--line);border-radius:12px;background:#0d1524}
+    .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+    .tab{padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--tab);cursor:pointer}
+    .tab.active{background:var(--tabActive);border-color:#4a84b8}
     .footer{margin-top:16px;color:var(--muted);font-size:13px}
-    @media(max-width:1200px){ .grid{grid-template-columns:1fr} .row,.row3,.row4{grid-template-columns:1fr} }
+    @media(max-width:1240px){ .grid{grid-template-columns:1fr} .row,.row4{grid-template-columns:1fr} }
   </style>
 </head>
 <body>
 <div class="wrap">
   <section class="hero">
-    <span class="badge">Projection-safe preview · deterministic v0.2</span>
+    <span class="badge">Projection-safe preview · deterministic v0.3</span>
     <h1>CoClouds Lab</h1>
-    <p>Cluster CoTerms, compose clouds, mutate signal weights, switch render modes, share URL state, and export CoBus-ready payloads.</p>
-    <p class="muted">This is a static-first CoAura render-layer lab. It exposes evolving signal clusters without claiming canonical CoObject truth.</p>
+    <p>Explore CoClouds, compose clouds, mutate signal weights, and immediately see the same state rendered as <strong>Human</strong>, <strong>Guided</strong>, <strong>Raw Signal</strong>, or <strong>JSON</strong>.</p>
+    <p class="muted">This is a first-contact CoAura surface: legible to humans, increasingly useful to AI, and shareable by URL.</p>
+    <div class="ctaRow">
+      <a class="cta primary" href="#presets">Explore Presets</a>
+      <a class="cta" href="#assemble">Assemble Signal</a>
+      <a class="cta good" href="#output">Copy / Export</a>
+    </div>
   </section>
 
   <div class="grid">
     <section class="panel stack">
+      <div id="presets">
+        <h2>Featured Presets</h2>
+        <div class="presets" id="presetList"></div>
+      </div>
       <div>
         <h2>Clouds</h2>
         <div id="cloudList" class="clouds"></div>
@@ -67,16 +80,6 @@
         <h3>Compose with</h3>
         <label for="composeSelect">Secondary Cloud</label>
         <select id="composeSelect"></select>
-      </div>
-      <div>
-        <h3>Mode</h3>
-        <label for="modeSelect">Output Render</label>
-        <select id="modeSelect">
-          <option value="human">Human</option>
-          <option value="guided">Guided</option>
-          <option value="raw_signal">Raw Signal</option>
-          <option value="json">JSON</option>
-        </select>
       </div>
     </section>
 
@@ -90,7 +93,7 @@
         <ul id="relationshipList"></ul>
       </div>
 
-      <div>
+      <div id="assemble">
         <h2>Assemble Signal</h2>
         <div class="row">
           <div>
@@ -147,10 +150,16 @@
       </div>
     </section>
 
-    <section class="panel stack">
+    <section class="panel stack" id="output">
       <div>
-        <h2>Generated Output</h2>
-        <textarea id="output"></textarea>
+        <h2>Output</h2>
+        <div class="tabs">
+          <button class="tab active" data-mode="human">Human</button>
+          <button class="tab" data-mode="guided">Guided</button>
+          <button class="tab" data-mode="raw_signal">Raw Signal</button>
+          <button class="tab" data-mode="json">JSON</button>
+        </div>
+        <textarea id="outputBox"></textarea>
       </div>
       <div class="outmeta">
         <div class="kv"><strong>Deterministic Key</strong><div id="detKey" class="mono muted"></div></div>
@@ -161,7 +170,7 @@
   </div>
 
   <div class="footer">
-    Local page uses <span class="mono">../../api/coclouds/coclouds.v0.1.json</span>. Share URLs preserve state in query parameters.
+    Presets are opinionated first-contact shortcuts. They can be mutated freely after loading.
   </div>
 </div>
 
@@ -169,9 +178,49 @@
 let model = null;
 let activeIndex = 0;
 
+const presets = [
+  {
+    id: 'andrew_bc',
+    title: 'Andrew (BC)',
+    summary: 'Engineering depth, systems thinking, venture trajectory.',
+    cloud: 'venture_evolution',
+    compose: 'human_ai_coordination',
+    mode: 'guided',
+    intent: 'venture',
+    domain: 'xr+systems+mentorship',
+    goal: 'turn a promising system concept into a validated builder trajectory',
+    notes: 'prioritize architecture, leverage, and practical movement',
+    ai: 55, mentor: 45, novelty: 40, constraint: 70
+  },
+  {
+    id: 'elias_texas',
+    title: 'Elias (Texas)',
+    summary: 'Builder traction, practical momentum, real-world next steps.',
+    cloud: 'venture_evolution',
+    compose: '',
+    mode: 'human',
+    intent: 'venture',
+    domain: 'startup+execution+community',
+    goal: 'translate concept into concrete next-step motion',
+    notes: 'keep practical, energetic, and founder-useful',
+    ai: 45, mentor: 55, novelty: 35, constraint: 75
+  },
+  {
+    id: 'systems_builders',
+    title: 'Systems Builders',
+    summary: 'Nerd-friend mode: coordination, structure, and payload usefulness.',
+    cloud: 'human_ai_coordination',
+    compose: 'capability_evolution',
+    mode: 'raw_signal',
+    intent: 'coordination',
+    domain: 'human+ai+governance',
+    goal: 'assemble governed signal for aligned action',
+    notes: 'optimize for composability and technical credibility',
+    ai: 60, mentor: 40, novelty: 45, constraint: 80
+  }
+];
+
 const el = id => document.getElementById(id);
-const enc = s => encodeURIComponent(s || '');
-const dec = s => decodeURIComponent(s || '');
 
 async function sha256Hex(text){
   const bytes = new TextEncoder().encode(text);
@@ -231,14 +280,19 @@ function renderCloud(index){
   generate();
 }
 
+function setMode(mode){
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.mode === mode));
+}
+
 function gatherState(){
   const primary = getActiveCloud();
   const composeId = el('composeSelect').value;
   const secondary = composeId ? getCloudById(composeId) : null;
+  const activeTab = document.querySelector('.tab.active')?.dataset.mode || 'human';
 
   const state = {
     version: model.version || 'v0.2',
-    mode: el('modeSelect').value,
+    mode: activeTab,
     primary_cloud: primary.id,
     secondary_cloud: secondary ? secondary.id : null,
     intent: el('intent').value.trim(),
@@ -293,12 +347,12 @@ function buildHuman(state){
     '',
     'Prompt:',
     'Use this composed CoCloud state to produce a higher-resolution response that preserves the listed relationships while moving toward the stated goal.'
-  ].join('\n');
+  ].join('\\n');
 }
 
 function buildGuided(state){
   return [
-    'GUIDED::v0.2',
+    'GUIDED::v0.3',
     'PRIMARY::' + state.primary_cloud,
     'SECONDARY::' + (state.secondary_cloud || 'none'),
     'INTENT::' + state.intent,
@@ -312,11 +366,11 @@ function buildGuided(state){
     '- preserve composed relationships',
     '- prioritize next-step usefulness',
     '- maintain deterministic structure',
-    '- adapt explanation depth to the active cloud composition',
     '- use notes only as modifiers, not as truth source',
+    '- allow explanation depth appropriate to the audience',
     '',
     'TERMS::' + state.composed_terms.join(', ')
-  ].join('\n');
+  ].join('\\n');
 }
 
 function buildRawSignal(state){
@@ -334,7 +388,7 @@ function buildRawSignal(state){
     'RELS::',
     ...state.composed_relationships.map(r => '> ' + r),
     'NOTES::' + (state.notes || 'none')
-  ].join('\n');
+  ].join('\\n');
 }
 
 function stableObject(state){
@@ -373,10 +427,9 @@ async function generate(){
     case 'json': out = buildJson(state); break;
     default: out = buildHuman(state); break;
   }
-  el('output').value = out;
+  el('outputBox').value = out;
 
-  const detKeyObj = stableObject(state);
-  const detKey = JSON.stringify(detKeyObj);
+  const detKey = JSON.stringify(stableObject(state));
   el('detKey').textContent = detKey;
   el('shaHex').textContent = await sha256Hex(out);
   el('exportType').textContent = state.mode;
@@ -400,6 +453,23 @@ function updateUrl(state){
   history.replaceState(null, '', location.pathname + '?' + q.toString());
 }
 
+function applyPreset(p){
+  const idx = model.clouds.findIndex(c => c.id === p.cloud);
+  if(idx >= 0){ activeIndex = idx; renderCloud(activeIndex); }
+  el('composeSelect').value = p.compose || '';
+  el('intent').value = p.intent;
+  el('domain').value = p.domain;
+  el('goal').value = p.goal;
+  el('notes').value = p.notes;
+  el('aiWeight').value = p.ai;
+  el('mentorWeight').value = p.mentor;
+  el('novelty').value = p.novelty;
+  el('constraint').value = p.constraint;
+  setValLabels();
+  setMode(p.mode);
+  generate();
+}
+
 function applyUrlState(){
   const q = new URLSearchParams(location.search);
   const cloudId = q.get('cloud');
@@ -411,7 +481,6 @@ function applyUrlState(){
 
   const setIf = (id, key) => { const v = q.get(key); if(v !== null){ el(id).value = v; } };
   setIf('composeSelect','compose');
-  setIf('modeSelect','mode');
   setIf('intent','intent');
   setIf('domain','domain');
   setIf('goal','goal');
@@ -421,6 +490,9 @@ function applyUrlState(){
   setIf('novelty','novelty');
   setIf('constraint','constraint');
   setValLabels();
+
+  const mode = q.get('mode');
+  if(mode){ setMode(mode); }
 }
 
 function downloadFile(filename, text, mime){
@@ -439,15 +511,22 @@ async function wire(){
   ['aiWeight','mentorWeight','novelty','constraint'].forEach(id => {
     el(id).addEventListener('input', () => { setValLabels(); generate(); });
   });
-  ['composeSelect','modeSelect','intent','domain','goal','notes'].forEach(id => {
+  ['composeSelect','intent','domain','goal','notes'].forEach(id => {
     el(id).addEventListener('change', generate);
     el(id).addEventListener('input', generate);
+  });
+
+  document.querySelectorAll('.tab').forEach(t => {
+    t.addEventListener('click', () => {
+      setMode(t.dataset.mode);
+      generate();
+    });
   });
 
   el('generateBtn').addEventListener('click', generate);
 
   el('copyBtn').addEventListener('click', async () => {
-    await navigator.clipboard.writeText(el('output').value);
+    await navigator.clipboard.writeText(el('outputBox').value);
     const old = el('copyBtn').textContent;
     el('copyBtn').textContent = 'Copied';
     setTimeout(()=>el('copyBtn').textContent = old, 900);
@@ -462,18 +541,18 @@ async function wire(){
 
   el('downloadTxtBtn').addEventListener('click', async () => {
     const state = gatherState();
-    const sha = await sha256Hex(el('output').value);
+    const sha = await sha256Hex(el('outputBox').value);
     const name = 'cocloud_' + state.primary_cloud + '_' + (state.secondary_cloud || 'solo') + '_' + state.mode + '_' + sha.slice(0,12) + '.txt';
-    downloadFile(name, el('output').value, 'text/plain;charset=utf-8');
+    downloadFile(name, el('outputBox').value, 'text/plain;charset=utf-8');
   });
 
   el('downloadJsonBtn').addEventListener('click', async () => {
     const state = gatherState();
     const json = JSON.stringify({
       export_type: 'cocloud_state',
-      sha256_preview: await sha256Hex(el('output').value),
+      sha256_preview: await sha256Hex(el('outputBox').value),
       state: stableObject(state),
-      output: el('output').value
+      output: el('outputBox').value
     }, null, 2);
     const sha = await sha256Hex(json);
     const name = 'cocloud_' + state.primary_cloud + '_' + (state.secondary_cloud || 'solo') + '_state_' + sha.slice(0,12) + '.json';
@@ -485,10 +564,16 @@ fetch('../../api/coclouds/coclouds.v0.1.json')
   .then(r => r.json())
   .then(async data => {
     model = data;
+    el('presetList').innerHTML = presets.map((p,i) =>
+      '<div class="preset" data-i="' + i + '"><strong>' + p.title + '</strong><div class="small muted" style="margin-top:6px;">' + p.summary + '</div></div>'
+    ).join('');
+    document.querySelectorAll('.preset').forEach(n => n.addEventListener('click', ()=> applyPreset(presets[parseInt(n.dataset.i,10)])));
+
     el('cloudList').innerHTML = data.clouds.map((c,i) =>
       '<div class="cloud' + (i===0 ? ' active' : '') + '" data-i="' + i + '"><strong>' + c.title + '</strong><div class="small muted" style="margin-top:6px;">' + c.summary + '</div></div>'
     ).join('');
     document.querySelectorAll('.cloud').forEach(n => n.addEventListener('click', ()=>{ activeIndex = parseInt(n.dataset.i,10); renderCloud(activeIndex); }));
+
     applyUrlState();
     await wire();
     await generate();

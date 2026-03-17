@@ -1,0 +1,6 @@
+ROLE=Reader_Renderer_CoBusParticipant
+PACK=Entment260317_FirstContact_Clarity_v0_3
+STATUS=projection-safe-preview
+GENERATED_UTC=20260317T120809Z
+PRIMARY_LAB=docs/labs/coclouds/index.html
+UPGRADES=VisibleTabs,FeaturedPresets,TopCTA
