@@ -1,0 +1,10 @@
+﻿POINTER=CoExBundle_v0
+WAVE_ID=CoEx_CoCarry_Bundle_v0__20260317T192345Z
+GENERATED_UTC=20260317T192345Z
+MODE=CoEx~
+POLICY=PASS
+FILES:
+- CoPolicy__v0.md
+- CoTermCandidate__v0.md
+- CoBodySymbol__v0.md
+- CoChat__v0.md
