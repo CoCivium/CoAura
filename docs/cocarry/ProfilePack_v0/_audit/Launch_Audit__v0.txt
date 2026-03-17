@@ -1,0 +1,67 @@
+UTC=20260317T215156Z
+WAVE_ID=CoEx_ProfilePack_And_LaunchAudit_v0__20260317T215156Z
+
+=== STARTUP SHORTCUTS ===
+NAME=CoGuardian Tray Bootstrap.lnk
+TARGET=C:\CoGuardian\bootstrap\Run-CoDropLatest.cmd
+ARGS=
+WORKDIR=C:\CoGuardian\bootstrap
+---
+NAME=CoGuardian.lnk
+TARGET=C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.5.0_x64__8wekyb3d8bbwe\pwsh.exe
+ARGS=-NoProfile -ExecutionPolicy Bypass -File "C:\Users\rball\CoStacksRuntime\src\Start-CoGuardian.ps1"
+WORKDIR=C:\Users\rball\CoStacksRuntime\src
+---
+NAME=CoGuardianHost.lnk
+TARGET=C:\Users\rball\CoStacksRuntime\bin\CoGuardianHost.exe
+ARGS=
+WORKDIR=C:\Users\rball\CoStacksRuntime\bin
+---
+NAME=CoStacks.lnk
+TARGET=C:\Users\rball\CoStacksRuntime\CoStacks.vbs
+ARGS=
+WORKDIR=
+---
+NAME=CoStacksHost.lnk
+TARGET=C:\Users\rball\CoStacksRuntime\bin\CoStacksHost.exe
+ARGS=
+WORKDIR=C:\Users\rball\CoStacksRuntime\bin
+---
+
+=== TASKBAR SHORTCUTS ===
+NAME=Brave.lnk
+TARGET=C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+ARGS=
+WORKDIR=C:\Program Files\BraveSoftware\Brave-Browser\Application
+---
+NAME=File Explorer.lnk
+TARGET=
+ARGS=
+WORKDIR=
+---
+NAME=Google Chrome.lnk
+TARGET=C:\Program Files\Google\Chrome\Application\chrome.exe
+ARGS=
+WORKDIR=C:\Program Files\Google\Chrome\Application
+---
+NAME=Microsoft Edge.lnk
+TARGET=C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+ARGS=--profile-directory=Default
+WORKDIR=C:\Program Files (x86)\Microsoft\Edge\Application
+---
+NAME=OpenOffice.lnk
+TARGET=C:\Program Files (x86)\OpenOffice 4\program\soffice.exe
+ARGS=
+WORKDIR=C:\Program Files (x86)\OpenOffice 4\
+---
+NAME=Reolink.lnk
+TARGET=C:\Program Files\Reolink\Reolink.exe
+ARGS=
+WORKDIR=C:\Program Files\Reolink
+---
+
+=== POWERSHELL PROFILE PATHS ===
+PROFILE_ALL_USERS_ALL_HOSTS=C:\Users\rball\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1.AllUsersAllHosts
+PROFILE_ALL_USERS_CURRENT_HOST=C:\Users\rball\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1.AllUsersCurrentHost
+PROFILE_CURRENT_USER_ALL_HOSTS=C:\Users\rball\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1.CurrentUserAllHosts
+PROFILE_CURRENT_USER_CURRENT_HOST=C:\Users\rball\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1.CurrentUserCurrentHost

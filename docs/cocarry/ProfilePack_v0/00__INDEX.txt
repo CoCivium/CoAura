@@ -1,0 +1,12 @@
+POINTER=ProfilePack_v0
+WAVE_ID=CoEx_ProfilePack_And_LaunchAudit_v0__20260317T215156Z
+GENERATED_UTC=20260317T215156Z
+MODE=CoEx~
+POLICY=PASS
+FILES:
+- Shell_UX_Profile__v0.md
+- CoSteward_Portal__v0.md
+- CoChat_Surface__v0.md
+- InSeed_Product_Lines__v0.md
+- Dropped_Carry_Recovery__v0.md
+- _audit/Launch_Audit__v0.txt
