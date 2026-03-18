@@ -1,0 +1,4 @@
+TITLE=CoPulsePushbackWatcher_v0
+UTC=20260318T175518Z
+PACK=CoPulse_PushbackWatcher__v0.md
+INTENT=Standardize pushback against hesitation/hallucination/no-ACTION waves and require at least one CoPulse per wave
