@@ -1,0 +1,9 @@
+POINTER=CoBusAttachStates_v0
+WAVE_ID=CoBus_Attach_States_And_CapManifest_v0__20260318T144914Z
+GENERATED_UTC=20260318T144914Z
+MODE=CoEx~
+POLICY=PASS
+FILES:
+- CoBus_Attach_States__v0.md
+- CoHitch_CapManifest__v0.md
+- Wake_Intro_Capabilities__v0.md
