@@ -1,0 +1,8 @@
+POINTER=StabilizeBundle_v1
+WAVE_ID=CoStabilize_Integration_Contracts_v1__20260318T125345Z
+UTC=20260318T125345Z
+FILES:
+- CoIntegration__v0.md
+- CoCheck__v0.md
+- Session_Default_Behavior__v0.md
+- Dashboard_Signals__v0.md
