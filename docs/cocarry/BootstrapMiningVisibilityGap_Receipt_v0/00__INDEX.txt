@@ -1,0 +1,4 @@
+TITLE=BootstrapMiningVisibilityGap_Receipt_v0
+UTC=20260318T213013Z
+PACK=Bootstrap_Mining_Visibility_Gap_Receipt__v0.md
+INTENT=Objectize verified bootstrap/mining visibility gap and keep CoStacks-central queue narrow
