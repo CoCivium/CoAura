@@ -1,0 +1,4 @@
+TITLE=SessionSelfMining_Protocol_v0
+UTC=20260318T214119Z
+PACK=SessionSelfMining_Protocol_v0.md
+INTENT=Define mandatory self-mining loop and prepare for CoBeacon/bootstrap pinning
