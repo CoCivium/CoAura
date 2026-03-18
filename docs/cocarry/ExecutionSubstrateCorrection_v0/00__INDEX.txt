@@ -1,0 +1,8 @@
+POINTER=ExecutionSubstrateCorrection_v0
+WAVE_ID=Execution_Substrate_Correction_v0__20260318T161139Z
+GENERATED_UTC=20260318T161139Z
+MODE=CoEx~
+POLICY=PASS
+FILES:
+- Execution_Substrate_Model__v0.md
+- Thin_Execution_Bridge__v0.md
