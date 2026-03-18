@@ -1,0 +1,4 @@
+TITLE=AncientLaneRecoverySweep_Plan_v0
+UTC=20260318T215131Z
+PACK=Ancient_Lane_Recovery_Sweep_Plan__v0.md
+INTENT=Prepare future old-session self-mining recovery sweep after current rails stabilize
