@@ -1,0 +1,4 @@
+TITLE=CoStacks_Core_POINTERPACK_v0
+UTC=20260318T220841Z
+PACK=CoStacks_Core_POINTERPACK__v0.md
+INTENT=Compact pointer-pack for CoStacks core rails ingestion
