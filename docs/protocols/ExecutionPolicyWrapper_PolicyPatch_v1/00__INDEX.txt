@@ -1,0 +1,4 @@
+TITLE=ExecutionPolicyWrapper_PolicyPatch_v1
+UTC=20260318T223613Z
+PACK=ExecutionPolicy_Wrapper_Policy_Patch__v1.md
+INTENT=Require process-scoped wrapper invocation proof for local helper readiness
