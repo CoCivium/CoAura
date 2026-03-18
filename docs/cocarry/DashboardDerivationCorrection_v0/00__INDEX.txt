@@ -1,0 +1,9 @@
+POINTER=DashboardDerivationCorrection_v0
+WAVE_ID=CoBeacon_Dashboard_Derivation_Correction_v0__20260318T142530Z
+GENERATED_UTC=20260318T142530Z
+MODE=CoEx~
+POLICY=PASS
+FILES:
+- Dashboard_Derivation_Rule__v0.md
+- Bootstrap_Canonicality__v0.md
+- Dashboard_Action_Resolution__v0.md
