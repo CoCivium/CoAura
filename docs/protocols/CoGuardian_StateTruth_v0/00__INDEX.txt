@@ -1,0 +1,4 @@
+TITLE=CoGuardian_StateTruth_v0
+UTC=20260318T220159Z
+PACK=CoGuardian_StateTruth__v0.md
+INTENT=Lock authority precedence and state ladder for CoStacks-era rails
