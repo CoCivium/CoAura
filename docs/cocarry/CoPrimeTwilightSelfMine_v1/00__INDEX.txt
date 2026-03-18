@@ -1,0 +1,5 @@
+POINTER=CoPrimeTwilightSelfMine_v1
+WAVE_ID=CoPrime_Twilight_SelfMine_Pack_v1__20260318T172807Z
+GENERATED_UTC=20260318T172807Z
+FILES:
+- CoPrime_Twilight_SelfMine_Pack__v1.md
