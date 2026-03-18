@@ -1,0 +1,8 @@
+POINTER=CoLexScopeAlignment_v0
+WAVE_ID=CoLex_Scope_Alignment_v0__20260318T142816Z
+GENERATED_UTC=20260318T142816Z
+MODE=CoEx~
+POLICY=PASS
+FILES:
+- CoLex_Scope__v0.md
+- CoLex_Stability_Criteria__v0.md
