@@ -1,0 +1,4 @@
+TITLE=RepoTargetDriftReceipt_v0
+UTC=20260318T224021Z
+PACK=Repo_Target_Drift_Receipt__v0.md
+INTENT=Record repo-target drift and block authority promotion until target normalization is complete
